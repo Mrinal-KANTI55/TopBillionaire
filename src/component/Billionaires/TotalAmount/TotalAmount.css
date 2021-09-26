@@ -1,0 +1,8 @@
+.setPosition{
+    position: fixed;
+    border-radius: 15px;
+    background-color: thistle;
+    text-align: center;
+    width: 300px;
+
+}

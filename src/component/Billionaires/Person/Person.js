@@ -10,7 +10,7 @@ const Person = (props) => {
             <h4>Address:{address}</h4>
             <h4>Company:{company}</h4>
             <h4>Age:{age}</h4>
-            <button className='btnDegin'>Add Blance</button>
+            <button className='btnDegin'onClick={()=>props.passInfoPerson(props.info)}>Add Blance</button>
             </div>
         </div>
     );
