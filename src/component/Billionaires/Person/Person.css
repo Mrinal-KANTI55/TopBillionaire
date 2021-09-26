@@ -1,7 +1,8 @@
 .personCard{
     border: 3px solid lightgray;
     border-radius: 15px;
-    /* gap: 2px; */
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 .personCard img{
     border-radius: 60%;

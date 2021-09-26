@@ -1,7 +1,7 @@
 import React from 'react';
 import './TotalAmount.css'
 const TotalAmount = (props) => {
-    console.log(props.person);
+    const Number=props.person
     let TotalAmounts=0;
     let name='';
     // calculate total balence and add those person name
@@ -11,9 +11,10 @@ const TotalAmount = (props) => {
     }
     return (
         <div className='setPosition'>
+            <h3>Billionaie Persons :{Number.length} </h3>
             <h4>total :${TotalAmounts}</h4>
             <p>Name:{name}</p>
-            <br />
+            <button className='btnClear'>Clear</button>
         </div>
         
     );
