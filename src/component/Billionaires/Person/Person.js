@@ -1,6 +1,7 @@
 import React from 'react';
 import './Person.css';
 const Person = (props) => {
+    // here deconstracter for show person information
     const {picture,age,address,company,name}=props.info;
     return (
         <div>
