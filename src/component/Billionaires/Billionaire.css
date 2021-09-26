@@ -1,0 +1,9 @@
+.continerOfComponent{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 2px solid tomato;
+}
+.componentPerson{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+  }
