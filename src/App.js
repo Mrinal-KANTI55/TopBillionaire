@@ -6,7 +6,7 @@ import Billionaire from './component/Billionaires/Billionaire';
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      {/* here add component name */}
       <Header></Header>
       <Billionaire></Billionaire>
     </div>
