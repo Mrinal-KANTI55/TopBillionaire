@@ -1,5 +1,9 @@
 import React from 'react';
 import './Person.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
+// add icon on button
+const element = <FontAwesomeIcon icon={faDollarSign} />
 const Person = (props) => {
     // here deconstracter for show person information
     const {picture,age,address,company,name}=props.info;
@@ -11,7 +15,7 @@ const Person = (props) => {
             <h4>Address:{address}</h4>
             <h4>Company:{company}</h4>
             <h4>Age:{age}</h4>
-            <button className='btnDegin'onClick={()=>props.passInfoPerson(props.info)}>Add Blance</button>
+            <button className='btnDegin'onClick={()=>props.passInfoPerson(props.info)}>{element} Show Blance</button>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 .continerOfComponent{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background-color: rgb(225, 230, 219) ;
 }
 .componentPerson{
     display: grid;
